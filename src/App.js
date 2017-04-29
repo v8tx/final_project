@@ -38,7 +38,7 @@ class App extends Component {
             <li className="img1">
               <h1>Full Stack <span className="primary">Developer</span></h1>
               <p>It is a long established fact that a reader will be distracted by the readable<br/>content of a page when looking at its layout</p>
-              <a href="http://www.vdiazdesigns.com" target="_blank" className="primary-bg cta1">My Work</a><a href={"./vdiaz_resume.pdf"} className="secondary-sky-blue-bg cta2" target="_blank">Resume</a> 
+              <a href="http://www.vdiazdesigns.com" target="_blank" className="primary-bg cta1">My Work</a><a href={"./src/img/vdiaz_resume.pdf"} className="secondary-sky-blue-bg cta2" target="_blank">Resume</a> 
             </li>
           </ul>
         </section>
