@@ -4,9 +4,11 @@ import React, { Component } from 'react';
 import './index.css';
 import './css/animate.css';
 import './css/animation.css';
+import './css/animation-without-delay.css';
 import './css/responsive.css';
 import './css/reset.css';
 import './css/slicknav.min.css';
+import './css/pace-theme.css';
 
 class App extends Component {
   render() {
@@ -22,7 +24,7 @@ class App extends Component {
                     <li><a href="#slider">Home</a>
                     </li><li><a href="#services">Services</a>
                     </li><li><a href="#portfolio">My Work</a>
-                    </li><li><a href="#about">About</a>
+                    
                     </li>
                   </ul> 
                 </nav>
@@ -36,7 +38,7 @@ class App extends Component {
             <li className="img1">
               <h1>Full Stack <span className="primary">Developer</span></h1>
               <p>It is a long established fact that a reader will be distracted by the readable<br/>content of a page when looking at its layout</p>
-              <a href="#portfolio" className="primary-bg cta1">My Work</a><a href="#about" className="secondary-sky-blue-bg cta2">About</a> 
+              <a href="http://www.vdiazdesigns.com" target="_blank" className="primary-bg cta1">My Work</a><a href={"./vdiaz_resume.pdf"} className="secondary-sky-blue-bg cta2" target="_blank">Resume</a> 
             </li>
           </ul>
         </section>
@@ -88,65 +90,39 @@ class App extends Component {
 
           <div className="container">
             <div className="row">
-              <div className="" data-animation="fadeInUp">
-                <ul className="portfolio-carousel">
+              <div data-animation="fadeInUp">
+                <ul className={"portfolio-carousel"}>
+                  
                   <li>
                     <div className="inner-content">
-                      <img/>
+                      <img alt="text" />
                       <div className="overlay-content">
                         <h3>Environment Website</h3>
-                        <p><a href="#">Click here</a> for details</p>
-                      </div>
-                    </div>
-                  </li><li>
-                    <div className="inner-content">
-                      <img/>
-                      <div className="overlay-content">
-                        <h3>Ecommerce Website</h3>
-                        <p><a href="#">Click here</a> for details</p>
-                      </div>
-                    </div>
-                  </li><li>
-                    <div className="inner-content">
-                      <img/>
-                      <div className="overlay-content">
-                        <h3>Portfolio Website</h3>
-                        <p><a href="#">Click here</a> for details</p>
-                      </div>
-                    </div>
-                  </li><li>
-                    <div className="inner-content">
-                      <img/>
-                      <div className="overlay-content">
-                        <h3>Blog Website</h3>
-                        <p><a href="#">Click here</a> for details</p>
-                      </div>
-                    </div>
-                  </li><li>
-                    <div className="inner-content">
-                      <img/>
-                      <div className="overlay-content">
-                        <h3>Corporate Website</h3>
-                        <p><a href="#">Click here</a> for details</p>
-                      </div>
-                    </div>
-                  </li><li>
-                    <div className="inner-content">
-                      <img/>
-                      <div className="overlay-content">
-                        <h3>Ecommerce Website</h3>
-                        <p><a href="#">Click here</a> for details</p>
-                      </div>
-                    </div>
-                  </li><li>
-                    <div className="inner-content">
-                      <img/>
-                      <div className="overlay-content">
-                        <h3>Retail Website</h3>
-                        <p><a href="#">Click here</a> for details</p>
+                        <p><a href="#" alt="portfolio">Click here</a> for details</p>
                       </div>
                     </div>
                   </li>
+
+                  <li>
+                    <div className="inner-content">
+                      <img alt="text" />
+                      <div className="overlay-content">
+                        <h3>Ecommerce Website</h3>
+                        <p><a href="#" alt="portfolio">Click here</a> for details</p>
+                      </div>
+                    </div>
+                  </li>
+
+                  <li>
+                    <div className="inner-content">
+                      <img alt="text" />
+                      <div className="overlay-content">
+                        <h3>Portfolio Website</h3>
+                        <p><a href="#" alt="portfolio">Click here</a> for details</p>
+                      </div>
+                    </div>
+                  </li>
+
                 </ul>
 
                 <ul className="portfolio-nav">
@@ -158,127 +134,6 @@ class App extends Component {
           </div>
         </section>
 
-        <section className="team section-padding" id={"about"}>
-          <div className="" data-animation="fadeIn">
-            <div className="team-header">
-              <h1>About Me</h1>
-            </div>
-          </div>
-
-          <div className="container">
-            <div className="row">
-              <div className="animation" data-animation="zoomIn">
-                <ul className="team-carousel">
-                  <li>
-                    <div className="inner-content">
-                      <img src="img/team/member1.png" />
-                      <div className="overlay-content white">
-                        <p className="name primary bold">John Doe</p>
-                        <p className="position secondary-sky-blue bold">Web Developer</p>
-                        <p className="description">The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters</p>
-                          <ul className="member-social-links">
-                            <li><a href="#"><i className="fa fa-facebook"></i></a>
-                            </li>
-
-                            <li><a href="#"><i className="fa fa-twitter"></i></a>
-                            </li>
-                            <li><a href="#"><i className="fa fa-linkedin"></i></a>
-                            </li>
-                          </ul>
-                      </div>
-                    </div>
-                  </li>
-
-                  <li>
-                    <div className="inner-content">
-                      <img src={"img/team/member2.png"} />
-                      <div className="overlay-content white">
-                        <p className="name primary bold">Christina</p>
-                        <p className="position secondary-sky-blue bold">Web Designer</p>
-                        <p className="description">The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters</p>
-                        <ul className="member-social-links">
-                          <li><a href="#"><i className="fa fa-facebook"></i></a>
-                          </li><li><a href="#"><i className="fa fa-twitter"></i></a>
-                          </li><li><a href="#"><i className="fa fa-linkedin"></i></a>
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
-                  </li><li>
-                    <div className="inner-content">
-                      <img src="img/team/member3.png" />
-                      <div className="overlay-content white">
-                        <p className="name primary bold">Alex</p>
-                        <p className="position secondary-sky-blue bold">UI/UX Designer</p>
-                        <p className="description">The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters</p>
-                        <ul className="member-social-links">
-                          <li><a href="#"><i className="fa fa-facebook"></i></a>
-                          </li><li><a href="#"><i className="fa fa-twitter"></i></a>
-                          </li><li><a href="#"><i className="fa fa-linkedin"></i></a>
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
-                  </li><li>
-                    <div className="inner-content">
-                      <img src="img/team/member4.png" />
-                      <div className="overlay-content white">
-                        <p className="name primary bold">John Doe</p>
-                        <p className="position secondary-sky-blue bold">Web Developer</p>
-                        <p className="description">The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters</p>
-                        <ul className="member-social-links">
-                          <li><a href="#"><i className="fa fa-facebook"></i></a>
-                          </li><li><a href="#"><i className="fa fa-twitter"></i></a>
-                          </li><li><a href="#"><i className="fa fa-linkedin"></i></a>
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
-                  </li><li>
-                    <div className="inner-content">
-                      <img src="img/team/member2.png" />
-                      <div className="overlay-content white">
-                        <p className="name primary bold">Alisha</p>
-                        <p className="position secondary-sky-blue bold">Web Designer</p>
-                        <p className="description">The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters</p>
-                        <ul className="member-social-links">
-                          <li><a href="#"><i className="fa fa-facebook"></i></a>
-                          </li><li><a href="#"><i className="fa fa-twitter"></i></a>
-                          </li><li><a href="#"><i className="fa fa-linkedin"></i></a>
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
-                  </li>
-
-                  <li>
-                    <div className="inner-content">
-                      <img src={"img/team/member4.png"} />
-                      <div className="overlay-content white">
-                        <p className="name primary bold">Dennis</p>
-                        <p className="position secondary-sky-blue bold">UI Designer</p>
-                        <p className="description">The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters</p>
-                        <ul className="member-social-links">
-                          <li><a href="#"><i className="fa fa-facebook"></i></a>
-                          </li><li><a href="#"><i className="fa fa-twitter"></i></a>
-                          </li><li><a href="#"><i className="fa fa-linkedin"></i></a>
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
-                  </li>
-                </ul>
-
-                <ul className="team-nav">
-                  <li id="team-prev">&lt;</li>
-                  <li id="team-next">&gt;</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-
-        </section>
-
         <footer>
           <div className="container">
             <div className="row">
@@ -286,9 +141,9 @@ class App extends Component {
           
               </div>
               <div className="col-md-4">
-              <div className={"animation"} data-animation={"fadeInLeft"}>
+              <div data-animation={"fadeInLeft"}>
                   <h1>Stay In Touch</h1>
-                  <ul className="footer-social-links">
+                  <ul className={"footer-social-links"}>
                     <li><a href="#"><i className="fa fa-facebook"></i></a>
                     </li><li><a href="#"><i className="fa fa-twitter"></i></a>
                     </li><li><a href="#"><i className="fa fa-linkedin"></i></a>

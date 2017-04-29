@@ -9,8 +9,8 @@ header{
 	line-height: 112px;
 	position: fixed;
 	width: 100%;
-	z-index: 0;
-	background: none;
+	z-index: 100;
+	background: #34495e;
 }
 
 header a.logo
@@ -62,7 +62,7 @@ header nav ul li a:hover, header nav ul li a:focus
 
 .slider ul.slider-carousel li h1
 {
-	margin-top: 150px;
+	margin-top: 200px;
 	margin-bottom: 30px;
 	color: #fff;
 }
