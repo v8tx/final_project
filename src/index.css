@@ -198,6 +198,7 @@ header nav ul li a:hover, header nav ul li a:focus
 {
 	margin-right: 10px;
 	margin-left: 10px;
+	text-align: center;
 }
 
 .portfolio .inner-content .overlay-content h3,.portfolio .inner-content .overlay-content p
@@ -528,6 +529,7 @@ textarea
 footer
 {
 	padding-top: 56px;
+	text-align: center;
 }
 
 footer h1
@@ -559,6 +561,36 @@ form.update-form input:not([type=submit]),textarea
 	padding-left: 20px;
 	box-shadow: 1px 1px 3px rgba(0,0,0,0.2) inset;
 	border: none;
+}
+.github{
+	background:url('img/github.png');
+	height: 30px;
+	width: 30px;
+}
+.linkedin {
+	background:url('img/linkedin.png');
+	height: 30px;
+	width: 30px;
+}
+.bh {
+	background:url('img/bh.png');
+	height: 265px;
+	width: 225px;
+}
+.slb {
+	background:url('img/slb.png');
+	height: 265px;
+	width: 225px;
+}
+.kw {
+	background:url('img/kw.png');
+	height: 265px;
+	width: 225px;
+}
+.onething {
+	background:url('img/1thing.png');
+	height: 265px;
+	width: 225px;
 }
 
 #take-email

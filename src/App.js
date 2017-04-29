@@ -94,41 +94,39 @@ class App extends Component {
                 <ul className={"portfolio-carousel"}>
                   
                   <li>
-                    <div className="inner-content">
+                    <div className="inner-content bh">
                       <img alt="text" />
                       <div className="overlay-content">
-                        <h3>Environment Website</h3>
-                        <p><a href="#" alt="portfolio">Click here</a> for details</p>
+                        <h3>Bluehost</h3>
+                        <p><a href="https://www.bluehost.com/" target="_blank" alt="bluehost">Click here</a> for details</p>
                       </div>
                     </div>
                   </li>
 
                   <li>
-                    <div className="inner-content">
+                    <div className="inner-content slb">
                       <img alt="text" />
                       <div className="overlay-content">
-                        <h3>Ecommerce Website</h3>
-                        <p><a href="#" alt="portfolio">Click here</a> for details</p>
+                        <h3>Schlumberger</h3>
+                        <p><a href="http://www.slb.com/" target="_blank" alt="schlumberger">Click here</a> for details</p>
                       </div>
                     </div>
                   </li>
 
                   <li>
-                    <div className="inner-content">
+                    <div className="inner-content kw">
                       <img alt="text" />
                       <div className="overlay-content">
-                        <h3>Portfolio Website</h3>
-                        <p><a href="#" alt="portfolio">Click here</a> for details</p>
+                        <h3>Keller Williams Realty</h3>
+                        <p><a href="http://www.kw.com/kw/" target="_blank" alt="kw">Click here</a> for details</p>
                       </div>
                     </div>
                   </li>
 
+
                 </ul>
 
-                <ul className="portfolio-nav">
-                  <li id="prev">&lt;</li>
-                  <li id="next">&gt;</li>
-                </ul>
+    
               </div>
             </div>
           </div>
@@ -144,12 +142,10 @@ class App extends Component {
               <div data-animation={"fadeInLeft"}>
                   <h1>Stay In Touch</h1>
                   <ul className={"footer-social-links"}>
-                    <li><a href="#"><i className="fa fa-facebook"></i></a>
-                    </li><li><a href="#"><i className="fa fa-twitter"></i></a>
-                    </li><li><a href="#"><i className="fa fa-linkedin"></i></a>
-                    </li><li><a href="#"><i className="fa fa-dribbble"></i></a>
-                    </li><li><a href="#"><i className="fa fa-youtube"></i></a>
-                    </li>
+              
+                    <li><a href="https://github.com/v8tx" target="_blank"><div className="github"></div></a></li>
+                    <li><a href="https://www.linkedin.com/in/vdiaztx/" target="_blank"><div className="linkedin"></div></a></li>
+
                   </ul>
                 </div>
               </div>
