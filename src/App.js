@@ -79,86 +79,116 @@ class App extends Component {
         </section>
 
 
-  <section className="portfolio section-padding" data-stellar-background-ratio="0.5" id="portfolio">
-    <div className="" data-animation="fadeIn">
-      <div className="portfolio-header">
-        <h1 className="white">My Work</h1>
-        <p>It is a long established fact that a reader will be distracted by the<br/> readable content of a page when looking at its layout</p>
-      </div>
-    </div>
+        <section className="portfolio section-padding" data-stellar-background-ratio="0.5" id="portfolio">
+          <div className="" data-animation="fadeIn">
+            <div className="portfolio-header">
+              <h1 className="white">My Work</h1>
+              <p>It is a long established fact that a reader will be distracted by the<br/> readable content of a page when looking at its layout</p>
+            </div>
+          </div>
 
-    <div className="container">
-      <div className="row">
-        <div className="" data-animation="fadeInUp">
-          <ul className="portfolio-carousel">
-            <li>
-              <div className="inner-content">
-                <img/>
-                <div className="overlay-content">
-                  <h3>Environment Website</h3>
-                  <p><a href="#">Click here</a> for details</p>
-                </div>
-              </div>
-            </li><li>
-              <div className="inner-content">
-                <img/>
-                <div className="overlay-content">
-                  <h3>Ecommerce Website</h3>
-                  <p><a href="#">Click here</a> for details</p>
-                </div>
-              </div>
-            </li><li>
-              <div className="inner-content">
-                <img/>
-                <div className="overlay-content">
-                  <h3>Portfolio Website</h3>
-                  <p><a href="#">Click here</a> for details</p>
-                </div>
-              </div>
-            </li><li>
-              <div className="inner-content">
-                <img/>
-                <div className="overlay-content">
-                  <h3>Blog Website</h3>
-                  <p><a href="#">Click here</a> for details</p>
-                </div>
-              </div>
-            </li><li>
-              <div className="inner-content">
-                <img/>
-                <div className="overlay-content">
-                  <h3>Corporate Website</h3>
-                  <p><a href="#">Click here</a> for details</p>
-                </div>
-              </div>
-            </li><li>
-              <div className="inner-content">
-                <img/>
-                <div className="overlay-content">
-                  <h3>Ecommerce Website</h3>
-                  <p><a href="#">Click here</a> for details</p>
-                </div>
-              </div>
-            </li><li>
-              <div className="inner-content">
-                <img/>
-                <div className="overlay-content">
-                  <h3>Retail Website</h3>
-                  <p><a href="#">Click here</a> for details</p>
-                </div>
-              </div>
-            </li>
-          </ul>
+          <div className="container">
+            <div className="row">
+              <div className="" data-animation="fadeInUp">
+                <ul className="portfolio-carousel">
+                  <li>
+                    <div className="inner-content">
+                      <img/>
+                      <div className="overlay-content">
+                        <h3>Environment Website</h3>
+                        <p><a href="#">Click here</a> for details</p>
+                      </div>
+                    </div>
+                  </li><li>
+                    <div className="inner-content">
+                      <img/>
+                      <div className="overlay-content">
+                        <h3>Ecommerce Website</h3>
+                        <p><a href="#">Click here</a> for details</p>
+                      </div>
+                    </div>
+                  </li><li>
+                    <div className="inner-content">
+                      <img/>
+                      <div className="overlay-content">
+                        <h3>Portfolio Website</h3>
+                        <p><a href="#">Click here</a> for details</p>
+                      </div>
+                    </div>
+                  </li><li>
+                    <div className="inner-content">
+                      <img/>
+                      <div className="overlay-content">
+                        <h3>Blog Website</h3>
+                        <p><a href="#">Click here</a> for details</p>
+                      </div>
+                    </div>
+                  </li><li>
+                    <div className="inner-content">
+                      <img/>
+                      <div className="overlay-content">
+                        <h3>Corporate Website</h3>
+                        <p><a href="#">Click here</a> for details</p>
+                      </div>
+                    </div>
+                  </li><li>
+                    <div className="inner-content">
+                      <img/>
+                      <div className="overlay-content">
+                        <h3>Ecommerce Website</h3>
+                        <p><a href="#">Click here</a> for details</p>
+                      </div>
+                    </div>
+                  </li><li>
+                    <div className="inner-content">
+                      <img/>
+                      <div className="overlay-content">
+                        <h3>Retail Website</h3>
+                        <p><a href="#">Click here</a> for details</p>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
 
-          <ul className="portfolio-nav">
-            <li id="prev">&lt;</li>
-            <li id="next">&gt;</li>
-          </ul>
-        </div>
-      </div>
-    </div>
+                <ul className="portfolio-nav">
+                  <li id="prev">&lt;</li>
+                  <li id="next">&gt;</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
 
-  </section>
+        <footer>
+          <div className="container">
+            <div className="row">
+              <div className="col-md-4">
+          
+              </div>
+              <div className="col-md-4">
+              <div className="animation" data-animation="fadeInLeft">
+                  <h1>Stay In Touch</h1>
+                  <ul className="footer-social-links">
+                    <li><a href="#"><i className="fa fa-facebook"></i></a>
+                    </li><li><a href="#"><i className="fa fa-twitter"></i></a>
+                    </li><li><a href="#"><i className="fa fa-linkedin"></i></a>
+                    </li><li><a href="#"><i className="fa fa-dribbble"></i></a>
+                    </li><li><a href="#"><i className="fa fa-youtube"></i></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div className="col-md-4">
+                
+              </div>
+            </div>
+          </div>
+          <div className="copyright">
+          <p>Copyright &copy; 2017. All Rights Reserved.</p>
+          </div>
+        </footer>
+
+
         </div>  
       </div>
     );
